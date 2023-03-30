@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            display: grid;
+            width: 500px;
+            height: 700px;
+            grid-template-columns: 2 50%;
+            grid-template-rows: 5 20%;
+            align-items: center;
+            padding: 10px;
+            gap:5px
+        
+        }
+        .title{
+            grid-column: 1/3;
+            grid-row: 1/2;
+            text-align: center;
+        }
+.first{
+    grid-column: 1/2;
+grid-row: 2/3;
+
+
+}
+.last{
+    grid-column: 2/3;
+grid-row: 2/3;
+
+
+}
+.email{
+    grid-column: 1/2;
+grid-row: 3/4;
+
+
+}
+.job{
+    grid-column: 2/3;
+grid-row: 3/4;
+
+
+}
+.address{
+    grid-column: 1/3;
+grid-row: 4/5;
+
+
+}
+.city{
+    grid-column: 2/3;
+grid-row: 5/6;
+
+
+}
+.pincod{
+    grid-column: 1/2;
+grid-row:5/6;
+
+}
+.date{
+    grid-column: 1/2;
+grid-row: 6/7;
+
+
+}
+.cv{
+    grid-column: 2/3;
+grid-row: 6/7;
+
+
+}
+    </style>
+</head>
+<body>
+
+<div class="container1">
+
+    <div class="title">
+        <h1> Job application (web)</h1>
+    </div>
+    <div class="first"><label for="First Name" style="font-weight: 1000;font-size: large;">First name</label>
+        <input type="text" id="first name" placeholder="Enter your name" style="border-radius: 5px;height: 30px;width: 230px;">
+
+    </div>
+
+    <div class="last"><label for="First Name"style="font-weight: 1000;font-size: large;" >Last name</label>
+        <input type="text" id="last name"placeholder="Enter your name"style="border-radius: 5px;height: 30px; width: 230px;">
+    </div>
+
+    <div class="email"><label for="First Name" style="font-weight: 1000;font-size: large;">Email</label>
+        <input type="text" id="email" placeholder="Enter email" style="border-radius: 5px;height: 30px ;width: 230px;">
+    </div>
+
+    <div class="job">
+        <label for="First Name" style="border-radius: 5px;font-weight: 1000;font-size: large;">Job role</label>
+        <select id="states" name="states" style="border-radius: 5px;height: 30px; width: 230px">
+        <option value="AL" style="border-radius: 5px;">Aaaaaaaaaaaa</option>
+        <option value="AK">I</option>
+        <option value="AZ">M</option>
+        <option value="AR">J</option>
+        <option value="CA">B</option>
+        <option value="CO">N</option></select>
+    </div>
+
+    <div class="address">
+        <label for="address"style="font-weight: 1000;font-size: large;">Address</label>
+            <textarea name="" id="Refernces"placeholder="Enter your address" style="border-radius: 5px; width: 500px;height: 30px; width: 500px"></textarea>
+    </div>
+
+    <div class="city">
+        <label for="First Name"style="font-weight: 1000;font-size: large;">city</label>
+        <input type="text" id="text" placeholder="Enter city name" style="border-radius: 5px;height: 30px; width: 230px">
+    </div>
+
+    <div class="pincod"><label for="ZC"style="font-weight: 1000;font-size: large;">pin code</label>
+        <input type="text"  placeholder="Enter pin cod"style="border-radius: 5px;height: 30px; width: 230px">
+
+    </div>
+    <div class="date"> <label for="date"style="font-weight: 1000;font-size: large;"> date</label>
+        <input type="date" id="date" name="date" style="border-radius: 5px;height: 30px; width: 230px">
+        <input type="submit" style="border-radius: 5px;">
+
+    </div>
+    <div class="cv">
+        <label for="FILE" style="border-radius: 5px;height: 30px"style="font-weight: 1000;font-size: large;">CV</label>
+            <button style="border-radius: 5px;height: 30px"style="font-weight: 1000;font-size: large;">choose file</button></div>
+    </div>
+    <button style="border-radius: 5px;background-color: crimson;height: 30px">Apply now</button>
+</div>
+
+<div class="container2"></div>
+</body>
+</html>
+
+

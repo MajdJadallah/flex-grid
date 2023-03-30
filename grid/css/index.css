@@ -1,0 +1,88 @@
+.container{
+    display: grid;
+    grid-template-columns: 300px 600px;
+    grid-template-rows: 80px 30px 400px 50px;
+    grid-template-areas: "header header""nav nav"
+    "sidebar article" "footer footer";
+    gap: 10px;
+}
+header{
+    grid-area: header;
+    background-color: yellow;
+    color: aliceblue;
+}
+nav{
+    grid-area: nav;
+    background-color: rgb(163, 198, 249);
+    color: aliceblue;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(246, 177, 59);
+    color: aliceblue;
+}
+article{
+    grid-area: article;
+    background-color: rgb(101, 101, 100);
+    color: aliceblue;
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(22, 38, 68);
+    color: aliceblue;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px 300px;
+    grid-area:"box1 box2 box3" "box4 box5 box6" "box7 box8 box9";
+    text-align: center;
+    font-size: x-large ;
+    justify-content: center;
+    gap: px
+}
+.box1{
+    grid-area: box1;
+    background-color: rgb(247, 170, 143);
+    color: rgb(255, 0, 0);
+}
+.box2{
+    grid-area: box2;
+    background-color: rgb(246, 251, 161);
+    color: rgb(255, 0, 0);
+}
+.box3{
+    grid-area: box3;
+    background-color: rgb(202, 247, 247);
+    color: rgb(255, 0, 0);
+}
+.box4{
+    grid-area: box4;
+    background-color: rgb(243, 172, 228);
+    color: rgb(255, 0, 0);
+}
+.box5{
+    grid-area: box5;
+    background-color: rgb(209, 245, 199);
+    color: rgb(255, 0, 0);
+}
+.box6{
+    grid-area: box6;
+    background-color: rgb(224, 222, 251);
+    color: rgb(255, 0, 0);
+}
+.box7{
+    grid-area: box7;
+    background-color: rgb(205, 177, 166);
+    color: rgb(255, 0, 0);
+}
+.box8{
+    grid-area: box8;
+    background-color: rgb(143, 227, 191);
+    color: rgb(255, 0, 0);
+}
+.box9{
+    grid-area: box9;
+    background-color: rgb(240, 209, 233);
+    color: rgb(255, 0, 0);
+}

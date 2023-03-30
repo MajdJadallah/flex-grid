@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\index.css">
+    <style>
+        .container{
+    display: grid;
+    grid-template-columns: 300px 600px;
+    grid-template-rows: 80px 30px 400px 50px;
+    grid-template-areas: "header header""nav nav"
+    "sidebar article" "footer footer";
+text-align: center;
+font-size: x-large ;
+justify-content: center;
+    gap: 10px;
+}
+header{
+    grid-area: header;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+nav{
+    grid-area: nav;
+    background-color: rgb(0, 101, 253);
+    color: aliceblue;
+    border-radius: 15px;
+
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(246, 177, 59);
+    color: aliceblue;
+    border-radius: 15px;
+    padding-top: 10px;
+
+}
+section{
+    grid-area: article;
+    background-color: rgb(158, 158, 158);
+    color: aliceblue;
+    border-radius: 15px;
+
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(22, 38, 68);
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+
+
+.container2{
+display: grid;
+grid-template-columns: 250px 500px;
+grid-template-rows: 120px 50px 700px 60px;
+grid-template-areas: "header header""nav nav"
+"sidebar article" "footer footer";
+text-align: center;
+font-size: x-large ;
+justify-content: center;
+gap: 10px;
+}
+.header2{
+grid-area: header;
+background-color: yellow;
+color: rgb(0, 0, 0);
+border-radius: 15px;
+}
+.nav2{
+grid-area: nav;
+background-color: rgb(0, 101, 253);
+color: aliceblue;
+border-radius: 15px;
+
+}
+.sidebar2{
+grid-area: sidebar;
+background-color: rgb(246, 177, 59);
+color: aliceblue;
+border-radius: 15px;
+padding-top: 10px;
+
+}
+.article2{
+grid-area: article;
+background-color: rgb(158, 158, 158);
+color: aliceblue;
+border-radius: 15px;
+
+}
+.footer2{
+grid-area: footer;
+background-color: rgb(22, 38, 68);
+color: aliceblue;
+border-radius: 15px;
+
+}
+
+
+.container3{
+display: grid;
+grid-template-columns: 150px 300px;
+grid-template-rows: 120px 50px 1000px 80px;
+grid-template-areas: "header header""nav nav"
+"sidebar article" "footer footer";
+text-align: center;
+font-size: x-large ;
+justify-content: center;
+gap: 10px;
+}
+.header3{
+grid-area: header;
+background-color: yellow;
+color: rgb(0, 0, 0);
+border-radius: 15px;
+}
+.nav3{
+grid-area: nav;
+background-color: rgb(0, 101, 253);
+color: aliceblue;
+border-radius: 15px;
+
+}
+.sidebar3{
+grid-area: sidebar;
+background-color: rgb(246, 177, 59);
+color: aliceblue;
+border-radius: 15px;
+padding-top: 10px;
+
+}
+.article3{
+grid-area: article;
+background-color: rgb(158, 158, 158);
+color: aliceblue;
+border-radius: 15px;
+
+}
+.footer3{
+grid-area: footer;
+background-color: rgb(22, 38, 68);
+color: aliceblue;
+border-radius: 15px;
+}
+
+
+/* task 3 */
+/* display: grid;
+    grid-template-columns: 300px 600px;
+    grid-template-rows: 80px 30px 400px 50px;
+    grid-template-areas: "header header""nav nav"
+    "sidebar article" "footer footer";
+text-align: center;
+font-size: x-large ;
+justify-content: center;
+    gap: 10px; */
+
+.boxes{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px 300px;
+    grid-area:"box1 box2 box3" "box4 box5 box6" "box7 box8 box9";
+    text-align: center;
+    font-size: x-large ;
+    justify-content: center;
+    gap: px
+}
+.box1{
+    grid-area: box1;
+    background-color: rgb(247, 170, 143);
+    color: rgb(255, 0, 0);
+}
+.box2{
+    grid-area: box2;
+    background-color: rgb(246, 251, 161);
+    color: rgb(255, 0, 0);
+}
+.box3{
+    grid-area: box3;
+    background-color: rgb(202, 247, 247);
+    color: rgb(255, 0, 0);
+}
+.box4{
+    grid-area: box4;
+    background-color: rgb(243, 172, 228);
+    color: rgb(255, 0, 0);
+}
+.box5{
+    grid-area: box5;
+    background-color: rgb(209, 245, 199);
+    color: rgb(255, 0, 0);
+}
+.box6{
+    grid-area: box6;
+    background-color: rgb(224, 222, 251);
+    color: rgb(255, 0, 0);
+}
+.box7{
+    grid-area: box7;
+    background-color: rgb(205, 177, 166);
+    color: rgb(255, 0, 0);
+}
+.box8{
+    grid-area: box8;
+    background-color: rgb(143, 227, 191);
+    color: rgb(255, 0, 0);
+}
+.box9{
+    grid-area: box9;
+    background-color: rgb(240, 209, 233);
+    color: rgb(255, 0, 0);
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+<header>header</header>
+<nav>nav</nav>
+<div class="sidebar"> Side bar</div>
+<section class="article">
+<h2>Article</h2>
+ <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Ab doloremque recusandae voluptatum obcaecati? Illo libero perspiciatis ut? Deleniti quas placeat voluptatem! 
+Autem qui labore assumenda nemo omnis dolores maiores facilis!</p>
+</section>
+<footer> footer</footer>
+</div>
+<br><br><br>
+
+
+
+ 
+
+<div class="container2">
+<header class="header2">header</header>
+<nav class="nav2">nav</nav>
+<div class="sidebar2"> Side bar</div>
+<section class="article2">
+<h2>Article</h2>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Ab doloremque recusandae voluptatum obcaecati? Illo libero perspiciatis ut? Deleniti quas placeat voluptatem! 
+Autem qui labore assumenda nemo omnis dolores maiores facilis!</p>
+</section>
+<footer> footer</footer>
+</div>
+<br><br><br>
+
+<div class="container3">
+    <header class="header3">header</header>
+    <nav class="nav3">nav</nav>
+    <div class="sidebar3"> Side bar</div>
+    <section class="article3">
+    <h2>Article</h2>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Ab doloremque recusandae voluptatum obcaecati? Illo libero perspiciatis ut? Deleniti quas placeat voluptatem! 
+    Autem qui labore assumenda nemo omnis dolores maiores facilis!</p>
+    </section>
+    <footer> footer</footer>
+    </div>
+    <br><br><br>
+    <h1>Task3</h1>
+    <br><br><br>
+
+</body>
+</html>
